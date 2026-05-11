@@ -1,0 +1,14 @@
+C:\Users\ginag\implementclassmethods\bin\Debug\net10.0\implementclassmethods.exe
+C:\Users\ginag\implementclassmethods\bin\Debug\net10.0\implementclassmethods.deps.json
+C:\Users\ginag\implementclassmethods\bin\Debug\net10.0\implementclassmethods.runtimeconfig.json
+C:\Users\ginag\implementclassmethods\bin\Debug\net10.0\implementclassmethods.dll
+C:\Users\ginag\implementclassmethods\bin\Debug\net10.0\implementclassmethods.pdb
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\implementclassmethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\implementclassmethods.AssemblyInfoInputs.cache
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\implementclassmethods.AssemblyInfo.cs
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\implementclassmethods.csproj.CoreCompileInputs.cache
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\implementclassmethods.dll
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\refint\implementclassmethods.dll
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\implementclassmethods.pdb
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\implementclassmethods.genruntimeconfig.cache
+C:\Users\ginag\implementclassmethods\obj\Debug\net10.0\ref\implementclassmethods.dll
