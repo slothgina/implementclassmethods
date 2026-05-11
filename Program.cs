@@ -273,3 +273,31 @@ public void Print() => Console.WriteLine(First + " " + Last);
 public static Complex operator +(Complex a, Complex b) => a.Add(b);
 public string Name => First + " " + Last;
 public Customer this[long id] => store.LookupCustomer(id);
+
+var person = GetPersonalInfo("111111111");
+Console.WriteLine($"{person.Item1} {person.Item3}: age = {person.Item4}");
+
+public (string FName, string MName, string LName, int Age) GetPersonalInfo(string id)
+{
+    PersonInfo per = PersonInfo.RetrieveInfoById(id);
+    return (per.FirstName, per.MiddleName, per.LastName, per.Age);
+}
+
+var person = GetPersonalInfo("111111111");
+Console.WriteLine($"{person.FName} {person.LName}: age = {person.Age}");
+
+/*Expression-bodied members
+It's common to have method definitions that return immediately with the result of an expression, or that have a single statement as the body of the method. There's a syntax shortcut for defining such methods using =>:*/
+
+public Point Move(int dx, int dy) => new Point(x + dx, y + dy);
+public void Print() => Console.WriteLine(First + " " + Last);
+// Works with operators, properties, and indexers too.
+public static Complex operator +(Complex a, Complex b) => a.Add(b);
+public string Name => First + " " + Last;
+public Customer this[long id] => store.LookupCustomer(id);
+
+/*If the method returns void or is an async method, the body of the method must be a statement expression (same as with lambdas). For properties and indexers, they must be read-only, and you don't use the get accessor keyword.*/
+
+
+
+
